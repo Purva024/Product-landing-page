@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="productlanding.css" />
+    </head>
+    <body>
+        <header id="header"> <!--heading of the web page-->
+            <div class="logo-title">
+                <img src="https://i.postimg.cc/Bn7N7PhS/logo.png" alt="logo FitPulse" id="header-img"/>
+                <h1>FitPulse - Fitness Band</h1>
+            </div>
+            
+            <nav id="nav-bar"> <!--navigation bar-->
+                <a href="#features" class="nav-link"><button class="nav-button">Features</button></a>
+                <a href="#reviews" class="nav-link"><button class="nav-button">Reviews</button></a>
+                <a href="#pricing" class="nav-link"><button class="nav-button">Pricing</button></a>
+                <a href="#support" class="nav-link"><button class="nav-button">Support</button></a>
+            </nav>
+        </header>
+        <section> <!--main section of the web page-->
+            <div class="main-section">
+                <img src="https://i.postimg.cc/TPZ0fMMB/Watch.png" alt="FitPulse Watch" id="WatchImg"/>
+                <div> <!--heading of the web page-->
+                    <h3>Power Up Your Pulse And Stay Ahead of the Beat!</h3>
+                    <form method="post" action="https://www.freecodecamp.com/email-submit" id="form">
+                        <label for="email"><input type="email" required placeholder="Enter your email address" name="email" id="email" /></label>
+                        <label for="submit"><input type="submit" value="Buy Now" id="submit" /></label>
+                    </form>
+                </div>
+            </div>
+
+            <div class="video-section">
+                <p class="section-head">Watch FitPulse in Action</p>
+                <video controls id="video">
+                    <source src="https://media.istockphoto.com/id/1430366315/video/sport-woman-using-smart-watch-in-city-a-morning.mp4?s=mp4-640x640-is&k=20&c=Ub-nHHTj33EYUNWgGKZRIhqadsjmM1jSds7bvKqAyac=" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div id="features"> <!--features-->
+                <p class="section-head">Features</p>
+                <div class="feature-list"> 
+                    <div class="feature-div">
+                        <p class="feature-head">Track your health</p>
+                        <p class="feature-text">Stay on top of your wellness goals with real-time fitness tracking.</p>
+                    </div>
+                    <div class="feature-div">
+                        <p class="feature-head">Heart Rate & Sleep Tracking</p>
+                        <p class="feature-text">Understand your body better with 24/7 heart rate monitoring and sleep analysis.</p>
+                    </div>
+                    <div class="feature-div">
+                        <p class="feature-head">Waterproof & Long Battery Life</p>
+                        <p class="feature-text">No need to worry about sweat, rain, or even a quick swim—FitPulse is water-resistant and built to endure.</p>
+                    </div>
+                    <div class="feature-div">
+                        <p class="feature-head">Smart Notifications</p>
+                        <p class="feature-text">Get all your important alerts without reaching for your phone.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reviews"> <!--reviews-->
+                <p class="section-head">Reviews</p>
+                <div class="reviews-list">
+                    <div class="reviews-div">
+                        <p class="reviewer">Priya Sharma</p>
+                        <p class="the-review">"FitPulse Lite is perfect for my morning walks. Lightweight and reliable!"</p>
+                    </div>
+                    <div class="reviews-div">
+                        <p class="reviewer">Arjun Verma</p>
+                        <p class="the-review">"I love the Pro version! SpO<sub>2</sub> and sleep tracking are game-changers."</p>
+                    </div>
+                    <div class="reviews-div">
+                        <p class="reviewer">Sneha Iyer</p>
+                        <p class="the-review">"The Elite version feels premium. I can even take calls while jogging!"</p>
+                    </div>
+                    <div class="reviews-div">
+                        <p class="reviewer">Rohan Kapoor</p>
+                        <p class="the-review">"I’ve been using the FitPulse Lite for 3 weeks now and the battery life is insane. Loved it!"</p>
+                    </div>                    
+                </div>
+                <div class="reviews-list">
+                    <div class="reviews-div">
+                        <p class="reviewer">Meena Rao</p>
+                        <p class="the-review">"FitPulse Pro helped me stay consistent with my workouts. The heart rate tracker is super accurate."</p>
+                    </div>
+                    <div class="reviews-div">
+                        <p class="reviewer">Tushar Mehta</p>
+                        <p class="the-review">"It’s the best gift I’ve given myself this year. The display is crisp and notifications work great."</p>
+                    </div>
+                    <div class="reviews-div">
+                        <p class="reviewer">Anjali Desai</p>
+                        <p class="the-review">"Wasn't sure at first, but FitPulse Elite exceeded my expectations. Totally worth it!"</p>
+                    </div>
+                    <div class="reviews-div">
+                        <p class="reviewer">Dev Singh</p>
+                        <p class="the-review">"As a runner, the GPS tracking on the Pro version is a lifesaver. FitPulse nailed it."</p>
+                    </div>
+                </div>
+            </div>
+            <div id="pricing"> <!--pricing-->
+                <p class="section-head">Pricing</p>
+                <div class="price-list">
+                    <button class="pricing-button">
+                        <p class="watch-version">FitPulse Lite</p>
+                        <p class="price">₹1,999</p>
+                        <ul class="pricing-text">
+                            <li>Basic fitness tracking (steps, calories, distance)</li>
+                            <li>Heart rate monitor</li>
+                            <li>Water resistant</li>
+                            <li>5-day battery life</li>
+                        </ul>
+                    </button>
+                    <button class="pricing-button">
+                        <p class="watch-version">FitPulse Pro</p>                        
+                        <p class="price">₹3,999</p>
+                        <ul class="pricing-text">
+                            <li>All Lite features +</li>
+                            <li>Sleep tracking</li>
+                            <li>Blood oxygen monitor</li>
+                            <li>7-day battery life</li>
+                            <li>Color display</li>
+                        </ul>
+                    </button>
+                    <button class="pricing-button">
+                        <p class="watch-version">FitPulse Elite</p>                        
+                        <p class="price">₹5,999</p>
+                        <ul class="pricing-text">
+                            <li>All Pro features +</li>
+                            <li>Bluetooth calling</li>
+                            <li>GPS tracking</li>
+                            <li>10-day battery life</li>
+                            <li>Premium aluminum body</li>
+                        </ul>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <footer id="support"> <!--bottom of the web page-->
+            <div class="support-list">
+                <div>
+                    <p>Privacy Statement</p>
+                    <p>Cookies</p>
+                    <p>Terms and Conditions</p>
+                </div>
+                <div>
+                    <p><strong>Stay Connected</strong></p>
+                    <p>Instagram: <a href="https://www.instagram.com/">FitPulse</a></p>
+                    <p>Facebook: <a href="https://www.facebook.com/">FitPulse</a></p>
+                </div>
+                <div>
+                    <p>Contact us: 000 444 555 222</p>
+                    <p>Mail us: <a href="mailto:fitpulse@gmail.com">fitpulse@gmail.com</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
